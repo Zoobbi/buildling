@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "no-unused-vars": "error",
+    "no-console": "error",
+    "eqeqeq": "error",
+    "brace-style": "error",
+    "prefer-const": "error",
+    "no-trailing-spaces": "error",
+    "camelcase": "error",
+    "array-callback-return": "error",
+    "no-eval": "error",
+    "no-global-assign": "error",
+    "no-var": "error",
+    "prefer-template": "error",
+    "no-duplicate-imports": "error",
+    "no-multiple-empty-lines": "error",
+    "comma-dangle": "error",
+    "comma-spacing": "error",
+    "comma-style": "error",
+    "eol-last": ["error", "always"],
+    "key-spacing": "error",
+    "max-len": ["error", { "code": 125 }],
+    "no-multi-spaces": "error",
+    "no-redeclare": "error",
+    "no-return-assign": "error",
+    "no-shadow": "error",
+    "no-whitespace-before-property": "error",
+    "object-curly-spacing": ["error", "always"],
+    "quote-props": ["error", "as-needed"],
+    "semi-spacing": "error",
+    "space-before-blocks": "error",
+    "space-in-parens": "error"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.tsx"],
+      "rules": {
+        "react/prop-types": "off"
+      }
+    }
+  ]
+}
