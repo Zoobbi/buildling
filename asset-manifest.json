@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/buildling/static/css/main.073c9b0a.css",
+    "main.js": "/buildling/static/js/main.5e975fe8.js",
+    "static/js/787.7488bb60.chunk.js": "/buildling/static/js/787.7488bb60.chunk.js",
+    "static/media/logo.svg": "/buildling/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/buildling/index.html",
+    "main.073c9b0a.css.map": "/buildling/static/css/main.073c9b0a.css.map",
+    "main.5e975fe8.js.map": "/buildling/static/js/main.5e975fe8.js.map",
+    "787.7488bb60.chunk.js.map": "/buildling/static/js/787.7488bb60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5e975fe8.js"
+  ]
+}
